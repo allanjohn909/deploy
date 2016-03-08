@@ -1,11 +1,14 @@
 @extends('app')
 
+<<<<<<< HEAD
 @section('text')
 
   <strong>Configure Your Server </strong>
 
 @endsection
 
+=======
+>>>>>>> 63feba90a73bcbb8b07940cb900cc72dadeea6e7
 @section('content')
 
 	<div class="container">

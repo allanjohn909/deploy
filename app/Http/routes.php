@@ -14,8 +14,12 @@
 Route::get('/', function () {
     return view('login');
 });
+<<<<<<< HEAD
 Route::post('/login', 'MainController@postLogin');
 Route::get('start', function (){ return view('start');});
+=======
+Route::any('/login', 'MainController@postLogin');
+>>>>>>> 63feba90a73bcbb8b07940cb900cc72dadeea6e7
 
 /*
 |--------------------------------------------------------------------------
